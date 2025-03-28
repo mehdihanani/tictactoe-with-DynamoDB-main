@@ -37,25 +37,27 @@ A cloud-based Tic-Tac-Toe game built with **AWS EC2**, **DynamoDB**, and **Pytho
 ```bash
 sudo yum groupinstall -y "Development Tools"
 sudo yum install -y openssl-devel bzip2-devel libffi-devel git
+```
 Install Python 2.7
-bash
-Copy
+```bash
 cd /usr/src
 sudo wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
 sudo tar xzf Python-2.7.18.tgz
 cd Python-2.7.18
 sudo ./configure --enable-optimizations
 sudo make altinstall
+```
+```bash
 python2.7 -V  # Verify
+```
 Install Pip + Packages
-bash
-Copy
+```bash
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python get-pip.py
 pip install Flask boto configparser
+```
 Clone Repo
-bash
-Copy
+```bash
 cd /home/ec2-user/
 git clone https://github.com/avizway1/tictactoe-with-DynamoDB.git
 ```
