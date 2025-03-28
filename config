@@ -1,6 +1,6 @@
 [dynamodb]
-region=ap-south-2
-endpoint=dynamodb.ap-south-2.amazonaws.com
+region=ca-central-1
+endpoint=dynamodb.ca-central-1.amazonaws.com
 
 # If deploying to EC2, it is recommended that you leave these blank, and instead deploy credentials through an 
 # IAM Role for EC2: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
