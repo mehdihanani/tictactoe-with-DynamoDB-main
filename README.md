@@ -88,7 +88,7 @@ Clone the TicTacToe Project Repository
 
 ```bash
 cd /home/ec2-user/
-git clone https://github.com/avizway1/tictactoe-with-DynamoDB.git
+git clone https://github.com/mehdihanani/tictactoe-with-DynamoDB-main.git
 ```
 [Settings]
 TableName = Games
