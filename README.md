@@ -102,6 +102,7 @@ python application.py --config config.ini --mode service \
   --endpoint dynamodb.YOUR_REGION.amazonaws.com --serverPort 5000
 ```
 Open port 5000 in the EC2 security group.
+
 my région : ca-central-1
 Access: http://<EC2_PUBLIC_IP>:5000.
 
